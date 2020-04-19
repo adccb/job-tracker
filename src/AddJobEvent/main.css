@@ -1,0 +1,19 @@
+.add-job-event {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-job-event > div {
+  height: 150px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.2em;
+}

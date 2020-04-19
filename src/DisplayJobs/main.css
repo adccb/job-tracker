@@ -1,0 +1,35 @@
+.display-jobs {
+  width: 900px;
+}
+
+.display-jobs table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.display-jobs thead tr {
+  background-color: #4a69bd;
+  color: white;
+}
+
+.display-jobs td,
+.display-jobs tr {
+  padding: 0.5em;
+}
+
+.display-jobs td {
+  border-right: 1px #666 solid;
+}
+
+.display-jobs td:last-child {
+  border: none;
+}
+
+.display-jobs tr:nth-child(2n) {
+  background-color: #eeeeee;
+}
+
+.display-jobs tbody td:last-child {
+  text-align: center;
+  cursor: pointer;
+}

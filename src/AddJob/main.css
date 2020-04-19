@@ -1,0 +1,39 @@
+.add-job {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 2vw;
+  background-color: #e55039;
+}
+
+.add-job * {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.add-job input[type='text'] {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px #333 solid;
+  font-size: 0.8em;
+  padding: 3px 5px;
+}
+
+.add-job button {
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 1px #333 solid;
+  border-left: none;
+  font-size: 0.8em;
+  padding: 3px 5px;
+  background-color: #4a69bd;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
